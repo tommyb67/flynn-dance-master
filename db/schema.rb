@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140913215419) do
+ActiveRecord::Schema.define(version: 20140913231538) do
 
   create_table "feis", force: true do |t|
-    t.date     "date"
+    t.string   "date"
     t.string   "name"
     t.string   "location"
     t.string   "chairperson"

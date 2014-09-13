@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th width="150">Date</th>
+      <th width="150">Name</th>
+      <th width="150">Location</th>
+      <th width="150">Chairperson</th>
+      <th width="150">Entry Secretary</th>
+      <th width="150">Website</th>
+    </tr>
+  </thead>
+    <tbody>
+       <% @feis.each do |feis| %>
+        <tr>
+          <td><%= feis.date %></td>
+          <td><%= feis.name %></td>
+          <td><%= feis.location %></td>
+          <td><%= feis.chairperson %></td>
+          <td><%= feis.entry_secretary %></td>
+          <td><%= feis.url %></td>
+        </tr>
+      </tbody>
+        <% end %>
+    </table>
+
+
