@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Feis.create(date: "09/21/2014", name: "Syracuse Feis", location: "Drivers Village, 5885 East Circle Drive, Cicero, NY  13039", chairperson: "Gus Johnston", entry_secretary: "Johnston's Tax Service Inc", url: "www.johnstonstaxservice@yahoo.com");
