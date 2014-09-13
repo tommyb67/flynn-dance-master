@@ -77,4 +77,7 @@ FlynnDanceMaster::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  ##### NEED TO UPDATE TO HEROKU ADDRESS WHEN LIVE ########################
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
