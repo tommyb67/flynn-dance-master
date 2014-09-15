@@ -32,11 +32,8 @@ gem 'foundation-rails'
 gem 'devise'
 gem 'gmaps4rails'
 gem 'underscore-rails'
-
-group :production do
-     gem 'pg', '~> 0.17.1'
-     gem 'rails_12factor', '~> 0.0.2'
-end
+gem 'pg', '~> 0.17.1'
+gem 'rails_12factor', '~> 0.0.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
