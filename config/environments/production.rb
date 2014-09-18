@@ -79,7 +79,7 @@ FlynnDanceMaster::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   ##### NEED TO UPDATE TO HEROKU ADDRESS WHEN LIVE ########################
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'http://rocky-escarpment-9972.herokuapp.com/' }
 
   config.paperclip_defaults = {
     :storage => :s3,
