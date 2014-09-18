@@ -29,6 +29,7 @@ gem 'foundation-rails'
 gem 'devise'
 gem 'gmaps4rails'
 gem 'underscore-rails'
+gem 'paperclip', '~> 3.0'
 
 
 group :development, :test do
